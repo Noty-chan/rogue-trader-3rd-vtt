@@ -1,6 +1,6 @@
 # Dark Heresy 2nd Edition
 
-This is my _unofficial_ system for playing mine Rogue Trader 3rd Edition on [Foundry VTT](https://foundryvtt.com/). This requires >= Foundry 12.
+This is my _unofficial_ system for playing mine Rogue Trader 3rd Edition on [Foundry VTT](https://foundryvtt.com/). This release is built from my fork and requires ≥ Foundry 12.
 
 It offers extensive support for character sheets, compendium packs, and automated management to save you time and allow you to focus on role playing. The existing system listed on Foundry was character sheet only and thus this system was created to facilitate the automation features I desired.
 
@@ -19,7 +19,7 @@ It offers extensive support for character sheets, compendium packs, and automate
 
 ## Install
  - Go to the setup page and choose _Game Systems_.
- - Click the _Install System_ button, and paste in this [manifest link](https://github.com/MortarionUA/rogue-trader-3rd-vtt/system.json)
+ - Click the _Install System_ button, and paste in this [manifest link](https://github.com/Noty-chan/rogue-trader-3rd-vtt/releases/download/v0.1.0/system.json)
  - Create a Game World using the "Rogue Trader 3rd Edition" system.
 
 ## Links
