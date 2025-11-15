@@ -2,11 +2,11 @@
   "id": "rogue-trader-3rd",
   "title": "Rogue Trader 3rd Edition",
   "description": "Rogue Trader 3rd Edition - Foundry VTT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
-    "minimum": 12,
-    "verified": "12.331",
-    "maximum": 12
+    "minimum": 13.313,
+    "verified": "13.313",
+    "maximum": 13.999
   },
   "authors": [
     {
@@ -133,8 +133,8 @@
   "primaryTokenAttribute": "wounds",
   "secondaryTokenAttribute": "fate",
   "url": "https://github.com/MortarionUA/rogue-trader-3rd-vtt",
-  "manifest": "https://github.com/MortarionUA/rogue-trader-3rd-vtt/releases/download/0.1.0/system.json",
-  "download": "https://github.com/MortarionUA/rogue-trader-3rd-vtt/releases/download/0.1.0/rogue-trader-3rd-vtt-0.1.0.zip",
+  "manifest": "https://github.com/MortarionUA/rogue-trader-3rd-vtt/releases/download/0.1.1/system.json",
+  "download": "https://github.com/MortarionUA/rogue-trader-3rd-vtt/releases/download/0.1.1/rogue-trader-3rd-vtt-0.1.1.zip",
   "license": "LICENSE.txt",
   "bugs": "https://github.com/MortarionUA/rogue-trader-3rd-vtt/issues"
 }
