@@ -13,7 +13,11 @@
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "MortarionUA",
+  "author": "Noty-chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noty-chan/rogue-trader-3rd-vtt.git"
+  },
   "license": "MIT",
   "private": true,
   "dependencies": {
