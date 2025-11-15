@@ -1,6 +1,7 @@
 # Dark Heresy 2nd Edition
 
-This is my _unofficial_ system for playing mine Rogue Trader 3rd Edition on [Foundry VTT](https://foundryvtt.com/). This release is built from my fork and requires ≥ Foundry 12.
+
+This is my _unofficial_ system for playing mine Rogue Trader 3rd Edition on [Foundry VTT](https://foundryvtt.com/). This now requires Foundry VTT 13.313 or a newer V13 build.
 
 It offers extensive support for character sheets, compendium packs, and automated management to save you time and allow you to focus on role playing. The existing system listed on Foundry was character sheet only and thus this system was created to facilitate the automation features I desired.
 
@@ -17,9 +18,22 @@ It offers extensive support for character sheets, compendium packs, and automate
 🔫 You can also drag weapons and skills to the macro bar for easy access, and the system offers automation support for weapon specials, most talents, attack types, and custom ammunition when you attack. Modifiers like distance and character size are automatically taken into account when targeting an attack.
 
 
+## Foundry V13 Support
+
+The 0.1.1 release was re-tested on Foundry VTT 13.313. When upgrading an existing world, allow the migration dialog to finish and then confirm the following smoke tests:
+
+- Actor and item sheets load without errors, with nested items (ammo, specials, etc.) behaving as expected.
+- Weapon and psychic attack workflows (attack rolls, damage rolls, and chat messages) continue to function.
+- Release-note driven migrations complete successfully on first launch.
+- Automatic and manual active effects tick correctly when turns advance.
+
+If any of these checks fail, please open an issue with logs and reproduction steps so the compatibility fix can be expanded.
+
 ## Install
  - Go to the setup page and choose _Game Systems_.
+
  - Click the _Install System_ button, and paste in this [manifest link](https://github.com/Noty-chan/rogue-trader-3rd-vtt/releases/download/v0.1.0/system.json)
+
  - Create a Game World using the "Rogue Trader 3rd Edition" system.
 
 ## Links
