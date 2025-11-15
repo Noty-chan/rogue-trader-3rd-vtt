@@ -2,7 +2,7 @@ import { RogueTraderSettings } from './rogue-trader-settings.mjs';
 import { SYSTEM_ID } from './hooks-manager.mjs';
 
 export async function checkAndMigrateWorld() {
-    const worldVersion = 181;
+    const worldVersion = 182;
 
     const currentVersion = game.settings.get(SYSTEM_ID, RogueTraderSettings.SETTINGS.worldVersion);
     if (worldVersion !== currentVersion && game.user.isGM) {
@@ -37,7 +37,7 @@ export async function checkAndMigrateWorld() {
     }
 
     async function updateCompendiumPermissions(currentVersion) {
-        if (currentVersion < 181) {
+        if (currentVersion < 182) {
             // Every compendium in our system should be owned by everyone and have full owner permissions.
             // Otherwise, issues will occur when trying to create items from the compendium.
             const compendiums = game.packs.filter((p) => p.metadata.packageName === SYSTEM_ID);
@@ -151,6 +151,15 @@ export async function checkAndMigrateWorld() {
                     notes: [
                         'Updated compendium permissions to fix permissions issues for players without ownership permissions.',
                         'Fixed issue with nested items not working: weapon specials and ammunition should now work correctly.',
+                    ],
+                });
+                break;
+            case 182:
+                await releaseNotes({
+                    version: '0.1.1',
+                    notes: [
+                        'Verified compatibility with Foundry VTT 13.313 and raised the manifest minimum accordingly.',
+                        'Re-applies the compendium permission migration for stricter V13 ownership checks.',
                     ],
                 });
                 break;
